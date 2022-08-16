@@ -8,8 +8,8 @@ export default function Login({ name, navigation }) {
   const [status, setStatus] = useState(true)
   const [inputEmail, setInputEmail] = useState("");
   const [inputPassword, setInputPassword] = useState("");
-  const email="shamith2709@gmail.com";
-  const password="sam";
+  const email="damaniakaushal4@gmail.com";
+  const password="ks";
 
   const handleSubmit=()=>{
     if(email==inputEmail&&password==inputPassword){
